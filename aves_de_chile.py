@@ -57,7 +57,7 @@ def main():
 
     html_aves = generar_html_aves(datos_aves)
 
-    with open('index.html', 'w') as f:
+    with open('index.html', 'w', encoding='UTF-8') as f:
         f.write(html_aves)
 
     print("¡Archivo HTML creado exitosamente!")
