@@ -1,6 +1,27 @@
 # Generador de HTML para Aves de Chile
 
-Este programa en Python descarga datos de aves desde la API 'https://aves.ninjas.cl/api/birds', genera un archivo HTML con la información de las aves y lo guarda en el archivo 'index.html'.
+## Descripción 
+Genrador de HTML Galería de Aves de Chile. Este programa en Python descarga datos de aves desde la API 'https://aves.ninjas.cl/api/birds', genera un archivo HTML con la información de las aves y lo guarda en el archivo 'index.html'.
+
+## Tecnologías Aplicadas
+
+- **Python**: El programa está escrito en Python, un lenguaje de programación de alto nivel que es fácil de aprender y potente, lo que lo hace ideal para el desarrollo rápido de aplicaciones.
+
+- **Requests**: Se utiliza la biblioteca `requests` de Python para hacer solicitudes HTTP a la API.
+
+- **JSON**: Se utiliza JSON para estructurar los datos que se obtienen de la API.
+
+- **HTML y CSS**: Se genera un archivo HTML con CSS para presentar la información de las aves de una manera fácil de leer.
+
+## Calidad del Código
+
+El código está bien organizado y sigue las mejores prácticas de Python. Las funciones están claramente definidas y cada una realiza una tarea específica, lo que facilita la comprensión del código. Además, se utilizan comentarios para explicar qué hace cada parte del código, lo que hace que el código sea más legible y fácil de mantener.
+
+## Utilidad para el Aprendizaje de Nuevos Desarrolladores
+
+Este programa es un excelente recurso para los nuevos desarrolladores que están aprendiendo a trabajar con APIs, JSON y la generación de archivos HTML en Python. Proporciona un ejemplo práctico de cómo se pueden utilizar estas tecnologías para descargar datos de una API, procesar esos datos y generar un archivo HTML a partir de ellos.
+
+Además, el código está escrito de una manera que es fácil de entender, lo que hace que sea un excelente recurso para aprender buenas prácticas de codificación en Python.
 
 ## Funciones
 
