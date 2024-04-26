@@ -24,6 +24,8 @@ Después de ejecutar el programa, deberías ver el mensaje “¡Archivo HTML cre
 ## Dependencias
 Este programa depende del módulo ‘requests’ de Python. Puedes instalarlo con pip:
 
-``pip install requests``
+```bash
+pip install requests
+```
 
 Por favor, reemplaza "nombre_del_archivo.py" con el nombre real de tu archivo Python. Espero que esto te sea útil. 😊
