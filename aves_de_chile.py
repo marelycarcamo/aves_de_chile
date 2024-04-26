@@ -1,11 +1,10 @@
 import requests
-import json
 
 
 def obtener_datos_aves(url):
     # Descarga datos de aves desde la API y los decodifica en JSON
     respuesta = requests.get(url)
-    return json.loads(respuesta.text)
+    return respuesta.json()
 
 
 def generar_html_aves(datos_aves):
@@ -21,11 +20,11 @@ def generar_html_aves(datos_aves):
 
     # Creación de la card para cada ave
         informacion_ave = f"""
-<div class='card' style="width: 18rem;">
+<div class='card'>
 	<img src="{url_imagen}" alt="{nombre_espanol}">
 	<div>
-    	<h4 class="card-title">{nombre_espanol}</h5>
-    	<h6 class="card-text">{nombre_ingles}</h6>
+    	<h2 class="card-title">{nombre_espanol}</h2>
+    	<h4 class="card-text">{nombre_ingles}</h4>
   	</div>
 </div>
 """
