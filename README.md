@@ -1,4 +1,4 @@
-# Generador de HTML para Aves de Chile
+# Aves de Chile
 
 ## Descripción 
 Genrador de HTML Galería de Aves de Chile. Este programa en Python descarga datos de aves desde la API 'https://aves.ninjas.cl/api/birds', genera un archivo HTML con la información de las aves y lo guarda en el archivo 'index.html'.
